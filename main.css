@@ -1,0 +1,82 @@
+body {
+	background: #889;
+	font-family:  Verdana;
+	margin:  5;
+	align-content: center;
+	background-image: url("Jan4.png");
+}
+
+a {
+	color:  blue;
+	text-decoration:  none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	
+	color:  #E9DDD8;
+	padding:  3px 1px;
+	font-family: Verdana;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 2px #FFFFFF;
+    background:  black;
+}
+
+nav ul li {
+	background:  #E9DDD8;
+	color:  #E9DDD8;
+	display:  inline;
+	list-style-type:  none;
+	padding:  5px 10px;
+	border-radius:  5px;
+	width: 95%;
+	float: left;
+	margin:  1%;
+	text-align: center;
+	border: 2px solid black;
+}
+
+img {
+  border: 3px solid black;
+  box-shadow: grey 0px 0px 10px;
+}
+ /* MOBILE */
+@media screen and (max-width 600px) {
+	img { width: 50px;
+	 }
+}
+
+nav ul{
+	margin: 0;
+	padding: 0 0 15px 0;
+	display:  inline;
+	background: #10164D;
+}
+
+
+.row {
+	text-align: center;
+}
+
+
+footer {
+	clear: both;
+	background: #E9DDD8;
+	text-align: center;
+	border-radius:  100px;
+	padding: -3px -10px;
+	border: 2px solid black;
+}
+
+
+
+
+
+
+

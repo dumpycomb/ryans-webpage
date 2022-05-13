@@ -1,0 +1,11 @@
+body {
+	background: #889;
+	font-family:  Verdana;
+	margin:  5;
+	align-content: center;
+	text-align: center;
+}
+
+img {
+  border: 3px solid black;
+}
